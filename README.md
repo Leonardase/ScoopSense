@@ -61,7 +61,9 @@ Using ScoopSense is straightforward. Open run.bat and enter the date you want to
 
 Installation
 
-ScoopSense runs using a pre‑initialized portable Python environment included in run\_support/, so no external installation is required. All dependencies are bundled, and the system can be run on any Windows machine by executing run.bat.
+ScoopSense requires a pre‑initialized portable Python environment, which is not included in the repository due to size constraints.
+To run the system, download the portable Python ZIP from the link provided in run_support/README.md and extract it into the run_support/ folder. Once the environment is in place, simply run run.bat on any Windows machine—no external Python installation is needed.
+
 
 
 
