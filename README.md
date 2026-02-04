@@ -1,8 +1,6 @@
 1\. Project Overview
 
-What the project does, why it exists, and the high‑level idea.
-
-ScoopSense uses historical data to generate data-driven production lists. I've been making ice cream for a couple years now, and the system we used for inventory and choosing which flavors we make runs off of paper and educated guesses. Doing inventory by hand is slow and space-intensive and deciding what flavors to make requires extensive knowledge of demand. 
+ScoopSense uses historical data to generate data-driven production lists. I've been making ice cream for a couple years now, and the system we used for inventory and choosing which flavors we make runs off of paper and educated guesses. Doing inventory by hand is slow and space-intensive and deciding what flavors to make requires extensive knowledge of demand.
 
 
 
@@ -33,19 +31,19 @@ I wanted a modern system that was faster, scalable, accessible anywhere, and bas
 3\. Architecture
 Google Sheet (inventory \& production)
 
-&nbsp;       ↓
+        ↓
 
 Sales Inference Engine
 
-&nbsp;       ↓
+        ↓
 
 Per‑Flavor Forecasting Models (XGBoost)
 
-&nbsp;       ↓
+        ↓
 
 Rule‑Based Production Planner
 
-&nbsp;       ↓
+        ↓
 
 Optimized Daily Production List
 
@@ -62,8 +60,7 @@ Using ScoopSense is straightforward. Open run.bat and enter the date you want to
 Installation
 
 ScoopSense requires a pre‑initialized portable Python environment, which is not included in the repository due to size constraints.
-To run the system, download the portable Python ZIP from the link provided in run_support/README.md and extract it into the run_support/ folder. Once the environment is in place, simply run run.bat on any Windows machine—no external Python installation is needed.
-
+To run the system, download the portable Python ZIP from the link provided in run\_support/README.md and extract it into the run\_support/ folder. Once the environment is in place, simply run run.bat on any Windows machine—no external Python installation is needed.
 
 
 
@@ -245,9 +242,12 @@ ScoopSense/
 
 
 
+
+
 11\. Example Output
 
-Below is a snippet from a real run of ScoopSense on 07‑07‑2025. The logs folder contains a full example. 
+Below is a snippet from a real run of ScoopSense on 07‑07‑2025. The logs folder contains a full example.
+
 
 
 Enter a date (MM-DD-YYYY format) or leave blank for today: 07-07-2025
@@ -294,27 +294,25 @@ More of this Sorbet or other:
 
 Recommended Order to maintain 29 flavors and our important flavors:
 
-&nbsp;       V
+        V
 
-&nbsp;       Cham
+        Cham
 
-&nbsp;       Dough
+        Dough
 
-&nbsp;       Prail
+        Prail
 
-&nbsp;       DCC
+        DCC
 
-&nbsp;       RINSE
+        RINSE
 
-&nbsp;       S Sorbet
+        S Sorbet
 
-&nbsp;       RINSE
+        RINSE
 
-&nbsp;       Choc
+        Choc
 
-&nbsp;       Death
+        Death
 
 Press any key to continue . . .
-
-
 
