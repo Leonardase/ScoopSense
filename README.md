@@ -82,9 +82,7 @@ Fortunately we would take inventory in the morning, which allowed us to make thi
 
 
 
-6\. Problems You Faced \& How You Solved Them
-
-This is great to include — it shows engineering maturity.
+6\. Problems I've Faced \& How I Solved Them
 
 One challenge involved flavors that appeared to have long stretches of zero sales. In reality, these “zero” days often occurred because the flavor was unavailable for purchase rather than because demand was truly zero. Training on these values would bias the model toward underestimating demand for rare or rotational flavors.
 
@@ -109,8 +107,6 @@ Early versions of ScoopSense required manually downloading the Google Sheets dat
 
 
 7\. Model \& Forecasting Explanation
-
-Short, clear explanation of your modeling choices.
 
 Because the dataset is still relatively small, the primary goal was to avoid overfitting. To keep the models generalizable, each flavor’s XGBoost model uses a limited number of estimators, strong regularization, and a small learning rate. These choices ensure the forecasts capture underlying demand patterns without becoming overly tied to specific dates or noise in the historical data.
 
